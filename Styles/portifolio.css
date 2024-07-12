@@ -1,0 +1,64 @@
+.portifolio{
+    padding: 10vw 5vw;
+}
+.portifolioTitulo{
+    font-family: var(--fontTitulo);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.repositorio{
+    border-top: 2px solid var(--corPrincipal);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+    background-color: var(--corPainel);
+}
+.repositorioTitulo{
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    font-family: var(--fontTitulo);
+}
+.repositorioImagem{
+    width: 40%;
+    height: 35vw;
+    border-radius: 5px;
+}
+.repositorioInfo{
+    width: 60%;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    justify-content: space-between;
+}
+.repositorioTexto{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.repositorioLinks{
+    width: 100%;
+    display: flex;
+    padding: 1em 0;
+    justify-content: flex-end;
+    gap: 2em;
+}
+.repositorioLink{
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em;
+    background-color: var(--corPrincipal);
+    color: var(--corPainel);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.repositorioCaracteristica{
+    font-size: 1rem;
+}
+.repositorioCaracteristica span{
+    font-weight: 800;
+    font-size: 1.1rem;
+}

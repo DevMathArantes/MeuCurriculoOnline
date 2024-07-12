@@ -1,0 +1,63 @@
+
+/*Parte superior da página*/
+.superior{
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+    padding: 0 0 10vw 0;
+}
+.superiorNav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.superiorMenuBtn{
+    width: 30px;
+    height: 30px;
+    background-image: url("../Assets/iconMenuAberto.png");
+    background-size: 60%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2em;
+}
+.superiorTitulo{
+    color: var(--corPainel);
+    font-size: 1.4rem;
+    font-family: var(--fontTitulo);
+    padding: 0 2em;
+    text-align: center;
+}
+.superiorLista{
+    display: none;
+    position: absolute;
+    top: 96%;
+    width: 40vw;
+    background-color: var(--corPrincipal);
+    padding: 1em;
+    background-color: var(--corPainel);
+}
+.superiorItem{
+    margin: 2em 0;
+    text-align: center;
+}
+.superiorLink{
+    text-decoration: none;
+    color: var(--corPrincipal);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.aparecerMenu:checked~.superiorLista{
+    display: block;
+}
+.aparecerMenu:checked~.superiorLabel > .superiorMenuBtn {
+    background-image: url("../Assets/iconMenu.png");
+    background-color: var(--corPainel);
+}
+.superiorImagem{
+    width: 80%;
+}
