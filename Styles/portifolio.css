@@ -1,15 +1,14 @@
-.portifolio{
-    padding: 10vw 5vw;
-}
 .portifolioTitulo{
     font-family: var(--fontTitulo);
     font-size: 2rem;
     font-weight: 700;
+    margin: 10vw 5vw;
 }
 .repositorio{
     border-top: 2px solid var(--corPrincipal);
     display: flex;
     flex-wrap: wrap;
+    margin: 10vw 5vw;
     margin-top: 10vw;
     background-color: var(--corPainel);
 }

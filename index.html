@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header class="superior">
@@ -31,6 +33,8 @@
     </header>
     <main class="portifolio">
         <h2 class="portifolioTitulo">Confira meus repositórios, visite-os para saber mais</h2>
+        
+        <!--Repositório beecrowd-->
         <section class="repositorio">
             <h3 class="repositorioTitulo">Resoluções beecrowd</h3>
             <div class="repositorioInfo">
@@ -43,6 +47,8 @@
                 <a href="https://github.com/DevMathArantes/Beecrowd.git" class="repositorioLink">Visitar</a>
             </div>
         </section>
+
+        <!--Repositório git/github-->
         <section class="repositorio">
             <h3 class="repositorioTitulo">Curso Git/Git-Hub</h3>
             <div class="repositorioInfo">
@@ -57,7 +63,100 @@
                 <a href="https://github.com/DevMathArantes/GitGithub.git" class="repositorioLink">Visitar</a>
             </div>
         </section>
+
+        <!--Formação front-end-->
+        <section class="formacao">
+            <h2 class="formacaoTitulo">Formação Front-end</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 1</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgHtml.png" alt="imagem de exemplo de html">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 2</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgCss.png" alt="imagem de exemplo de Css">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 3</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgHtmlCss.jpg" alt="imagem de exemplo de Html e Css">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 4</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgComputador.png" alt="imagem de exemplo de um computador">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 5</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgResponsivo2.png" alt="imagem de exemplo de responsividade">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="formacaoRepositorio">
+                        <h3 class="formacaoRepositorioTitulo">Html & Css 6</h3>
+                        <p class="formacaoRepositorioTexto"><span>Objetivo: </span>curso</p>
+                        <p class="formacaoRepositorioTexto"><span>Responsivo: </span>Não</p>
+                        <img class="formacaoRepositorioImagem" src="Assets/imgResponsividade.png" alt="imagem de exemplo de Responsividade">
+                        <a class="formacaoRepositorioLink" href="">Projeto</a>
+                        <a class="formacaoRepositorioLink" href="">Visitar</a>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
     </main>
+    <!--Script src do carrossel-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
+    <!--Comandos js internos ficam dentro do <script>...</script>-->
+    <script>
+
+        //Função do carrossel
+        const swiper = new Swiper('.swiper', {
+
+            //Espaço entre os slides
+            spaceBetween: 30,
+
+            //Slides por view
+            slidesPerView: 1.5,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
