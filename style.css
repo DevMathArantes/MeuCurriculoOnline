@@ -9,6 +9,7 @@
 @import url('Styles/header.css');
 @import url('Styles/portifolio.css');
 @import url('Styles/formacao.css');
+@import url('Styles/footer.css');
 
 /*Seletor universal*/
 *{
@@ -29,4 +30,9 @@ body{
 }
 .ausente{
     display: none;
+}
+
+/*Regras do sobre mim*/
+.sobreMim{
+    background-color: var(--corPrincipal);
 }

@@ -1,0 +1,7 @@
+.tituloFinal{
+    background-color: var(--corPrincipal);
+    color: var(--corPainel);
+    text-align: center;
+    padding: 1em;
+    font-family: var(--fontTitulo);
+}
