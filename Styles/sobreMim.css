@@ -1,0 +1,62 @@
+/*Regras do sobre mim*/
+.sobreMim{
+    color: var(--corPainel);
+    background-color: var(--corPrincipal);
+}
+
+/*main do sobre mim*/
+.sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    align-items: center;
+}
+.sobreTitulo{
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--fontTitulo);
+    font-weight: 700;
+    padding: 0.5em 1em;
+}
+.sobreImagem{
+    border: 3px solid var(--corPainel);
+    width: 80%;
+    height: 65vw;
+    border-radius: 100%;
+}
+.sobreSubtitulo{
+    font-weight: 600;
+}
+
+/*Skills*/
+.skills{
+    padding: 3em 0;
+    border-top: 3px solid var(--corPainel);
+    margin: 10em 0;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.skillsTitulo{
+    text-align: center;
+    font-size: 2em;
+    
+}
+.skillsImagem{
+    width: 100%;
+    position: sticky;
+    top: 60%;
+}
+.skillsLista{
+    padding: 0 1em;
+}
+.skillsListaTitulo{
+    margin: 1em 0;
+    font-size: 1.2rem;
+    font-family: var(--fontTitulo);
+    font-weight: 700;
+    border-bottom: 2px solid var(--corPainel);
+}
+.skillsItem{
+    margin: 0.5em 0;
+    font-size: 1.1rem;
+}

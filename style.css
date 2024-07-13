@@ -10,6 +10,7 @@
 @import url('Styles/portifolio.css');
 @import url('Styles/formacao.css');
 @import url('Styles/footer.css');
+@import url('Styles/sobreMim.css');
 
 /*Seletor universal*/
 *{
@@ -32,7 +33,3 @@ body{
     display: none;
 }
 
-/*Regras do sobre mim*/
-.sobreMim{
-    background-color: var(--corPrincipal);
-}
