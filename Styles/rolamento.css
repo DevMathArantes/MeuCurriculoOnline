@@ -1,14 +1,14 @@
-.formacao{
+.rolamento{
     background-color: var(--corPrincipal);
     padding-bottom: 2em;
 }
-.formacaoTitulo{
+.rolamento h2{
     color: var(--corPainel);
     text-align: center;
     padding: 1em 2em;
     font-size: 2rem;
 }
-.formacaoRepositorio{
+.rolamentoQuadro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,41 +18,28 @@
     padding: 1em;
     background-color: var(--corPainel);
 }
-.formacaoRepositorioTitulo{
-    color: var(--corPrincipal);
+.rolamentoQuadro h3{
     font-size: 1.7rem;
     text-align: center;
     font-weight: 600;
-    font-family: var(--fontTitulo);
 }
-.formacaoRepositorioTexto{
-    font-size: 1rem;
+.rolamentoQuadro p{
     text-align: left;
     width: 100%;
 }
-.formacaoRepositorioTexto span{
-    font-weight: 600;
-}
-.formacaoRepositorioImagem{
+.rolamentoQuadro img{
     width: 80%;
     height: 40vw;
     border-radius: 20px;
 }
-.formacaoRepositorioLink{
+.rolamentoQuadro a{
     width: 80%;
     background-color: var(--corPrincipal);
     color: var(--corPainel);
     text-align: center;
     padding: 1em;
     border-radius: 5px;
-    text-decoration: none;
 }
 .swiper-button-prev, .swiper-button-next{
     display: none;
-}
-.swiper-pagination{
-    position: initial;
-    margin: 0.5em 0;
-    width: 10%;
-
 }

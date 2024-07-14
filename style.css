@@ -7,8 +7,8 @@
 /*Styles/...*/
 @import url("Styles/reset.css");
 @import url('Styles/header.css');
-@import url('Styles/portifolio.css');
-@import url('Styles/formacao.css');
+@import url('Styles/main.css');
+@import url('Styles/rolamento.css');
 @import url('Styles/footer.css');
 @import url('Styles/sobreMim.css');
 
@@ -32,4 +32,21 @@ body{
 .ausente{
     display: none;
 }
-
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--fontTitulo);
+}
+p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+p span{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.aumentarTexto{
+    font-size: 1.2rem;
+    font-weight: 800;
+}

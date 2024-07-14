@@ -4,75 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Matheus Arantes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body class="sobreMim">
+<body>
     <!--Parte superior do site-->
-    <header class="superior">
-        <section class="superiorNav">
-            <input type="checkbox" id="superiorCheckSobre" class="ausente aparecerMenu">
-            <label class="superiorLabel" for="superiorCheckSobre">
-                <span class="superiorMenuBtn"></span>
+    <header class="header">
+        <section class="headerNav">
+            <input type="checkbox" id="headerCheckSobre" class="ausente aparecerMenu">
+            <label class="headerLabel" for="headerCheckSobre">
+                <span class="headerMenuBtn"></span>
             </label>
-            <h1 class="superiorTitulo">Matheus .A Ferreira</h1>
-            <ul class="superiorLista">
-                <li class="superiorItem">
-                    <a class="superiorLink" href="../index.html"> Voltar</a>
-                </li>
-                <li class="superiorItem">
-                    <a class="superiorLink" href="https://www.linkedin.com/in/matheus-arantes-427664256/">Linkedin</a>
-                </li>
-                <li class="superiorItem">
-                    <a class="superiorLink" href="https://github.com/DevMathArantes">Git-Hub</a>
-                </li>
-                <li class="superiorItem">
-                    <a class="superiorLink" href="https://wa.me/16992909552">WhatsApp</a>
-                </li>
+            <h1>Matheus .A Ferreira</h1>
+            <ul class="headerLista">
+                <li><a href="../index.html"> Voltar</a></li>
+                <li><a href="https://www.linkedin.com/in/matheus-arantes-427664256/">Linkedin</a></li>
+                <li><a href="https://github.com/DevMathArantes">Git-Hub</a></li>
+                <li><a href="https://wa.me/16992909552">WhatsApp</a></li>
             </ul>
         </section>
     </header>
 
-    <!--Conteúdo principal da página-->
-    <main class="sobre">
-        <img class="sobreImagem" src="" alt="">
-        <h1 class="sobreTitulo">Saiba mais sobre minha tragetória e conhecimentos</h1>
-        <p class="sobreSubtitulo">Ultima atualização: 13/07/2024</p>
-        
-        <!--Skills-->
-        <section class="skills">
-            <div class="skillsLista">
-                <h2 class="skillsTitulo">Minhas skills</h2>
-                <ul>
-                    <h3 class="skillsListaTitulo">Programação</h3>
-                    <li class="skillsItem">Html</li>
-                    <li class="skillsItem">Css</li>
-                    <li class="skillsItem">Java-script</li>
-                    <li class="skillsItem">React</li>
-                    <li class="skillsItem">JQuery</li>
-                    <li class="skillsItem">SQL</li>
-                    <li class="skillsItem">Java</li>
-                    <li class="skillsItem">C</li>
-                    <li class="skillsItem">Python</li>
-                </ul>
-                <ul>
-                    <h3 class="skillsListaTitulo">Tecnologia</h3>
-                    <li class="skillsItem">Redes</li>
-                    <li class="skillsItem">Dispositivos de redes</li>
-                    <li class="skillsItem">Marketing digital</li>
-                </ul>
-                <ul>
-                    <h3 class="skillsListaTitulo">Gerais</h3>
-                    <li class="skillsItem">Atendimento ao cliente</li>
-                    <li class="skillsItem">Aprendizado rápido</li>
-                </ul>
-            </div>
-            <img class="skillsImagem" src="../Assets/emojiPensativo.png" alt="emoji pensativo">
-        </section>
-    </main>
-
      <!--Fechamento da página-->
      <footer>
-        <h2 class="tituloFinal">Developed by DevMath.Arantes</h2>
+        <h2>Developed by DevMath.Arantes</h2>
     </footer>
+
+     <!--Script src do carrossel-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+     <!--Script do swiper-->
+     <script>
+         const swiper = new Swiper('.swiper', {
+             spaceBetween: 30,
+             slidesPerView: 1.5,
+             pagination: {
+                 el: '.swiper-pagination',
+                 type: 'bullets',
+             },
+         });
+     </script>
 </body>
 </html>
