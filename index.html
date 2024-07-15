@@ -14,18 +14,25 @@
         <section class="headerNav">
             <input type="checkbox" id="headerCheck" class="ausente aparecerMenu">
             <label class="headerLabel" for="headerCheck">
-                <span class="headerMenuBtn"></span>
+                <span class="headerMenuBtn">
+                    <p>Redes</p>
+                </span>
             </label>
             <h1>Matheus .A Ferreira</h1>
             <ul class="headerLista">
-                <li><a href="Pages/SobreMim.html">Sobre mim</a></li>
+                <li><a class="ausente2" href="Pages/SobreMim.html">Sobre mim</a></li>
                 <li><a href="https://www.linkedin.com/in/matheus-arantes-427664256/">Linkedin</a></li>
                 <li><a href="https://github.com/DevMathArantes">Git-Hub</a></li>
                 <li><a href="https://wa.me/16992909552">WhatsApp</a></li>
             </ul>
+            <div class="headerLinks">
+                <a href="Pages/SobreMim.html">Sobre mim</a>
+            </div>
         </section>
-        <img class="headerImagem" src="Assets/apresentacao.png" alt="imagem de um computador">
-        <h2 class="headerTitulo">Seja bem vindo ao meu portifólio</h2>
+        <div class="recepcao">
+            <img src="Assets/apresentacao.png" alt="imagem de um computador">
+            <h2>Seja bem vindo ao meu portifólio</h2>
+        </div>
     </header>
 
     <!--Parte principal da página-->
@@ -45,79 +52,8 @@
             </div>
         </section>
 
-        <!--Formação front-end-->
-        <section class="rolamento">
-            <h2>Formação Front-end</h2>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 1</h3>
-                        <p><span>Objetivo: </span>curso iniciante em html</p>
-                        <p><span>Responsivo: </span>Não</p>
-                        <img src="Assets/htmlCss1.png" alt="icone de curso da alura">
-                        <a class="rolamentoRepositorioLink" href="https://html-css1-lovat.vercel.app/">Projeto</a>
-                        <a class="rolamentoRepositorioLink" href="https://github.com/DevMathArantes/HtmlCss1">Visitar</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 2</h3>
-                        <p><span>Objetivo: </span>curso iniciante em css</p>
-                        <p><span>Responsivo: </span>Não</p>
-                        <img src="Assets/htmlCss1.png" alt="icone de curso da alura">
-                        <a href="https://html-css2-amber.vercel.app/">Projeto</a>
-                        <a href="https://github.com/DevMathArantes/HtmlCss2">Visitar</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 3</h3>
-                        <p><span>Objetivo: </span>curso básico de front-end</p>
-                        <p><span>Responsivo: </span>Não</p>
-                        <img src="Assets/htmlCss2.png" alt="icone de curso da alura">
-                        <a href="https://html-css3-six.vercel.app/">Projeto</a>
-                        <a href="https://github.com/DevMathArantes/HtmlCss3.git">Visitar</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 4</h3>
-                        <p><span>Objetivo: </span>curso básico em responsividade</p>
-                        <p><span>Responsivo: </span>Sim</p>
-                        <img src="Assets/htmlCss3.png" alt="icone de curso da alura">
-                        <a href="https://html-css4.vercel.app/">Projeto</a>
-                        <a href="https://github.com/DevMathArantes/HtmlCss4">Visitar</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 5</h3>
-                        <p><span>Objetivo: </span>curso com projeto básico</p>
-                        <p><span>Responsivo: </span>Sim</p>
-                        <img src="Assets/htmlCss4.png" alt="icone de curso da alura">
-                        <a href="https://html-css5.vercel.app/">Projeto</a>
-                        <a href="https://github.com/DevMathArantes/HtmlCss5.git">Visitar</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="rolamentoQuadro">
-                        <h3>Html & Css 6</h3>
-                        <p><span>Objetivo: </span>curso com projeto intermediário</p>
-                        <p><span>Responsivo: </span>Sim</p>
-                        <img src="Assets/htmlCss5.png" alt="icone de curso da alura">
-                        <a href="https://html-css6.vercel.app/">Projeto</a>
-                        <a href="https://github.com/DevMathArantes/HtmlCss6.git">Visitar</a>
-                    </div>
-                </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </section>
-
-        <!--Repositório git/github-->
-        <section class="painel">
+         <!--Repositório git/github-->
+         <section class="painel">
             <h3>Curso Git/Git-Hub</h3>
             <div class="painelInfo">
                 <p class="aumentarTexto">Neste repositório, estudei sobre git e git-hub</p>
@@ -128,6 +64,101 @@
             <div class="painelLinks">
                 <a href="https://git-github-murex.vercel.app/">Projeto</a>
                 <a href="https://github.com/DevMathArantes/GitGithub.git">Visitar</a>
+            </div>
+        </section>
+
+        <!--Formação front-end-->
+        <section class="rolamento">
+            <h2>Formação Front-end</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 1</h3>
+                            <p><span>Objetivo: </span>curso iniciante em html</p>
+                            <p><span>Responsivo: </span>Não</p>
+                        </div>
+                        <img src="Assets/htmlCss1.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a class="rolamentoRepositorioLink" href="https://html-css1-lovat.vercel.app/">Projeto</a>
+                            <a class="rolamentoRepositorioLink" href="https://github.com/DevMathArantes/HtmlCss1">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 2</h3>
+                            <p><span>Objetivo: </span>curso iniciante em css</p>
+                            <p><span>Responsivo: </span>Não</p>
+                        </div>
+                        <img src="Assets/htmlCss1.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a href="https://html-css2-amber.vercel.app/">Projeto</a>
+                            <a href="https://github.com/DevMathArantes/HtmlCss2">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 3</h3>
+                            <p><span>Objetivo: </span>curso básico de front-end</p>
+                            <p><span>Responsivo: </span>Não</p>
+                        </div>
+                        <img src="Assets/htmlCss2.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a href="https://html-css3-six.vercel.app/">Projeto</a>
+                            <a href="https://github.com/DevMathArantes/HtmlCss3.git">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 4</h3>
+                            <p><span>Objetivo: </span>curso básico em responsividade</p>
+                            <p><span>Responsivo: </span>Sim</p>
+                        </div>
+                        <img src="Assets/htmlCss3.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a href="https://html-css4.vercel.app/">Projeto</a>
+                            <a href="https://github.com/DevMathArantes/HtmlCss4">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 5</h3>
+                            <p><span>Objetivo: </span>curso com projeto básico</p>
+                            <p><span>Responsivo: </span>Sim</p>
+                        </div>
+                        <img src="Assets/htmlCss4.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a href="https://html-css5.vercel.app/">Projeto</a>
+                            <a href="https://github.com/DevMathArantes/HtmlCss5.git">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rolamentoQuadro">
+                        <div class="rolamentoQuadroInfo">
+                            <h3>Html & Css 6</h3>
+                            <p><span>Objetivo: </span>curso com projeto intermediário</p>
+                            <p><span>Responsivo: </span>Sim</p>
+                        </div>
+                        <img src="Assets/htmlCss5.png" alt="icone de curso da alura">
+                        <div class="rolamentoQuadroLinks">
+                            <a href="https://html-css6.vercel.app/">Projeto</a>
+                            <a href="https://github.com/DevMathArantes/HtmlCss6.git">Visitar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

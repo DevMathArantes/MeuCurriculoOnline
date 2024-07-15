@@ -4,3 +4,10 @@ footer h2{
     text-align: center;
     padding: 1em;
 }
+
+/*Responsividade para tablets ou celular tela deitada*/
+@media screen and (min-width: 724px){
+    footer h2{
+        font-size: 2rem;
+    }
+}

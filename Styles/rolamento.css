@@ -16,6 +16,7 @@
     border-radius: 20px;
     width: 100%;
     padding: 1em;
+    height: 120vw;
     background-color: var(--corPainel);
 }
 .rolamentoQuadro h3{
@@ -32,7 +33,12 @@
     height: 40vw;
     border-radius: 20px;
 }
-.rolamentoQuadro a{
+.rolamentoQuadroLinks{
+    width: 100%;
+    display: flex;
+    gap: 5vw;
+}
+.rolamentoQuadroLinks a{
     width: 80%;
     background-color: var(--corPrincipal);
     color: var(--corPainel);
@@ -40,6 +46,56 @@
     padding: 1em;
     border-radius: 5px;
 }
-.swiper-button-prev, .swiper-button-next{
-    display: none;
+.rolamentoQuadroInfo{
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+.rolamentoQuadroLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Responsividade para tablets ou celular tela deitada*/
+@media screen and (min-width: 724px){
+    .rolamento{
+        width: 100%;
+        padding: 2em 0;
+    }
+    .rolamento h2{
+        font-size: 3rem;
+    }
+    .rolamentoQuadro{
+        height: 40vw;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .rolamentoQuadroInfo{
+        width: 50%;
+        height: 20vw;
+        gap: 2vw;
+    }
+    .rolamentoQuadro img{
+        width: 45%;
+        height: 20vw;
+        margin: 0;
+    }
+    .rolamentoQuadroLinks{
+        flex-direction: row;
+    }
+    .rolamentoQuadro h3{
+        font-size: 3rem
+    }
+    .rolamentoQuadroLinks a{
+        font-size: 1.5rem;
+    }
+    .rolamentoQuadroInfo p span{
+        font-size: 1.7rem;
+    }
+    .rolamentoQuadro p{
+        font-size: 1.5rem;
+    }
 }

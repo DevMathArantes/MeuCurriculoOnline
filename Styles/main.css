@@ -1,7 +1,7 @@
 .main h2{
     font-size: 2rem;
     font-weight: 700;
-    margin: 10vw 5vw;
+    padding: 10vw 5vw;
 }
 .painel{
     border-top: 2px solid var(--corPrincipal);
@@ -47,4 +47,35 @@
     background-color: var(--corPrincipal);
     color: var(--corPainel);
     font-size: 1.2rem;
+}
+
+/*Responsividade para tablets ou celular tela deitada*/
+@media screen and (min-width: 724px){
+    .main{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .main h2{
+        width: 100%;
+        padding: 2em 1em;
+        text-align: center;
+    }
+    .painel{
+        width: 45%;
+        margin: 1em;
+        padding: 1em;
+    }
+    .painel h3{
+        font-size: 1.8rem;
+    }
+    .painel img{
+        height: 18vw;
+    }
+    .painelInfo{
+        height: 20vw;
+    }
+    .painelLinks a{
+        font-size: 1.6rem;
+    }
 }
