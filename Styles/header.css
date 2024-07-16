@@ -84,7 +84,7 @@
         padding: 0 5vw;
     }
     .header h2{
-        padding: 3vw;
+        padding: 2.5vw;
         text-align: left;
         font-size: 3.7rem;
         font-weight: 700;
@@ -120,10 +120,40 @@
     }
     .headerLinks a{
         color: var(--corPainel);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 600;
     }
     .headerLista{
         width: 15vw;
+    }
+}
+
+/*Responsividade para computadores ou tablets deitados*/
+@media screen and (min-width: 1300px){
+    .header{
+        padding: 0;
+    }
+    .recepcao{
+        padding: 3em 20em;
+        justify-content: space-between;
+    }
+    .header h2{
+        font-weight: 500;
+        padding: 0;
+        width: auto;
+    }
+    .headerLinks{
+        display: flex;
+        align-items: center;
+        height: 4vw;
+        width: 100%;
+    }
+    .headerLinks a{
+        font-weight: 400;
+        padding: 1em;
+    }
+    .headerLinks a:hover{
+        background-color: var(--corPainel);
+        color: var(--corPrincipal);
     }
 }

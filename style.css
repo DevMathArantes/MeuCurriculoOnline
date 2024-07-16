@@ -50,8 +50,22 @@ p span{
     font-size: 1.2rem;
     font-weight: 800;
 }
+.aparecer3{
+    display: none;
+}
 @media screen and (min-width: 724px){
     .ausente2{
         display: none;
+    }
+}
+@media screen and (min-width: 1300px){
+    .ausente3{
+        display: none;
+    }
+    .aparecer3{
+        display: flex;
+    }
+    .aumentarTexto{
+        font-size: 2rem;
     }
 }

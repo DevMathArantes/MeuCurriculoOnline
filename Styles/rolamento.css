@@ -68,7 +68,7 @@
         font-size: 3rem;
     }
     .rolamentoQuadro{
-        height: 50vw;
+        height: 60vw;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
@@ -100,5 +100,33 @@
     }
     .rolamentoQuadroInfo{
         height: auto;
+    }
+}
+
+/*Responsividade para computadores ou tablets deitados*/
+@media screen and (min-width: 1300px){
+    .rolamento h2{
+        font-size: 2em;
+    }
+    .rolamento{
+        padding: 0 0 2em 4em;
+    }
+    .rolamentoQuadro{
+        height: 25vw;
+        width: 90%;
+        align-items: flex-start;
+    }
+    .rolamentoQuadroLinks a{
+        font-size: 1rem;
+    }
+    .rolamentoQuadro img{
+        height: 15vw;
+        width: 40%;
+    }
+    .rolamentoQuadro p{
+        font-size: 1rem;
+    }
+    .rolamentoQuadro p span{
+        font-size: 1.1rem;
     }
 }
