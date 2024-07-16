@@ -68,7 +68,7 @@
         font-size: 3rem;
     }
     .rolamentoQuadro{
-        height: 40vw;
+        height: 50vw;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
@@ -97,5 +97,8 @@
     }
     .rolamentoQuadro p{
         font-size: 1.5rem;
+    }
+    .rolamentoQuadroInfo{
+        height: auto;
     }
 }

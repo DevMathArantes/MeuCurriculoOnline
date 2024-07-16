@@ -8,6 +8,6 @@ footer h2{
 /*Responsividade para tablets ou celular tela deitada*/
 @media screen and (min-width: 724px){
     footer h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
