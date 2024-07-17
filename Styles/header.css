@@ -151,9 +151,11 @@
     .headerLinks a{
         font-weight: 400;
         padding: 1em;
+        border-radius: 0 0 10px 10px;
     }
     .headerLinks a:hover{
         background-color: var(--corPainel);
         color: var(--corPrincipal);
+        transition: 1s;
     }
 }

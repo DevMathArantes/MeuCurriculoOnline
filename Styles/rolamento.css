@@ -12,15 +12,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
     border-radius: 20px;
     width: 100%;
     padding: 1em;
-    height: 120vw;
+    
     background-color: var(--corPainel);
 }
 .rolamentoQuadro h3{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 600;
 }
@@ -29,8 +29,8 @@
     width: 100%;
 }
 .rolamentoQuadro img{
-    width: 80%;
-    height: 40vw;
+    width: 90%;
+    height: 30vw;
     border-radius: 20px;
 }
 .rolamentoQuadroLinks{
@@ -47,10 +47,10 @@
     border-radius: 5px;
 }
 .rolamentoQuadroInfo{
-    height: 40vw;
+    height: 22vw;
     display: flex;
     flex-direction: column;
-    gap: 5vw;
+    gap: 3vw;
 }
 .rolamentoQuadroLinks{
     display: flex;
@@ -68,38 +68,27 @@
         font-size: 3rem;
     }
     .rolamentoQuadro{
-        height: 60vw;
+        height: 35vw;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
+        gap: 1em;
     }
     .rolamentoQuadroInfo{
         width: 50%;
-        height: 20vw;
+        height: auto;
         gap: 2vw;
     }
+    .rolamentoQuadro h3{
+        font-size: 1.3rem;
+    }
     .rolamentoQuadro img{
-        width: 45%;
-        height: 20vw;
+        width: 35%;
+        height: 12vw;
         margin: 0;
     }
     .rolamentoQuadroLinks{
         flex-direction: row;
-    }
-    .rolamentoQuadro h3{
-        font-size: 3rem
-    }
-    .rolamentoQuadroLinks a{
-        font-size: 1.5rem;
-    }
-    .rolamentoQuadroInfo p span{
-        font-size: 1.7rem;
-    }
-    .rolamentoQuadro p{
-        font-size: 1.5rem;
-    }
-    .rolamentoQuadroInfo{
-        height: auto;
     }
 }
 
@@ -120,8 +109,8 @@
         font-size: 1rem;
     }
     .rolamentoQuadro img{
-        height: 15vw;
-        width: 40%;
+        height: 9vw;
+        width: 30%;
     }
     .rolamentoQuadro p{
         font-size: 1rem;

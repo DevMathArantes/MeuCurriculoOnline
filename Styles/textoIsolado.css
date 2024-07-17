@@ -1,0 +1,14 @@
+.textoIsolado{
+    padding: 1em;
+    margin-top: 2em;
+}
+.textoIsolado h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.textoIsolado p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5em;
+}
