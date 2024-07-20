@@ -1,0 +1,81 @@
+.index{
+    background-color: var(--corPrincipal);
+    color: var(--corPainel);
+}
+.indexHeader{
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.indexHeader img{
+    border: 5px solid var(--corPainel);
+    width: 75%;
+    height: 70vw;
+    border-radius: 100%;
+}
+.indexHeader h1{
+    font-size: 1.5rem;
+}
+.indexMain{
+    padding: 1em 1.5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 4em;
+}
+.indexMain h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.indexMain a{
+    border: 3px solid var(--corPainel);
+    color: var(--corPainel);
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+/*Responsividade para tablets ou celular tela deitada*/
+@media screen and (min-width: 724px){
+    .indexHeader img{
+        width: 40%;
+        height: 40vw;
+    }
+}
+/*Responsividade para computadores ou tablets deitados*/
+@media screen and (min-width: 1300px){
+    .index{
+        display: flex;
+        flex-flow: row-reverse wrap;
+    }
+    .indexHeader{
+        width: 60%;
+    }
+    .indexHeader img{
+        height: 35vw;
+        width: 65%;
+    }
+    .indexMain{
+        width: 20%;
+        justify-content: center;
+    }
+    .indexMain h2{
+        font-size: 3rem;
+        text-align: left;
+    }
+    .indexMain a{
+        width: 100%;
+        text-align: center;
+    }
+    .indexMain a:hover{
+        transition: 1s;
+        background-color: var(--corPainel);
+        color: var(--corPrincipal);
+    }
+    .indexFooter{
+        width: 100%;
+    }
+}
